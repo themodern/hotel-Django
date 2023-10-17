@@ -1,0 +1,28 @@
+1. start terminal
+
+2. create and start virtual environment
+>> python -m venv venv
+>> . venv/bin/activate
+
+3. install dependencies
+>> pip install django django-shortcuts
+
+4. start project file
+>> django-admin startproject HMS
+
+5. start app file
+>> django startapp hotel
+
+6. start django backend
+>> django r
+
+go to http://127.0.0.1:8000/
+
+7. go to hotel/models.py and add class
+
+8. Create Django migration using Django shortcut
+>> django mm
+
+9. Applying all migration
+>> django m
+
