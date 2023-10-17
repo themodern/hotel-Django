@@ -12,7 +12,6 @@ class Room(models.Model):
         ('KIN', 'KING'),
         ('QUE', 'QUEEN'),
     )
-    
     number = models.CharField(max_length=200)
     categories = models.CharField(max_length=3, choices=ROOM_CATEGORIES)
     beds = models.IntegerField()
