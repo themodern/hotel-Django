@@ -2,6 +2,7 @@
 
 2. create and start virtual environment
 >> python -m venv venv
+to start
 >> . venv/bin/activate
 
 3. install dependencies
@@ -20,9 +21,37 @@ go to http://127.0.0.1:8000/
 
 7. go to hotel/models.py and add class
 
-8. Create Django migration using Django shortcut
+8. Create Django migration using Django shortcut, and 
+   applying all migration
 >> django mm
-
-9. Applying all migration
 >> django m
+
+9. Create a super user
+>> python manage.py createsuperuser
+>username
+>email
+>password
+
+10. go to admin site
+>> django r
+
+Open browser:
+>> 127.0.0.1:8000/admin
+>username
+>password
+
+11. mk dir "booking_functions
+
+12. make "__init__.py" and "availablility.py" for booking logics
+
+13. add availablility logic to settings.py
+add  'hotel.booking_functions' under  INSTALLED_APPS = [ ]
+
+14. create new file "urls.py" under the "hotel" directory
+
+15. go to HMS> urls.py to update the hotel url files to the backend
+
+16. create a new directory "templates" under "hotel"
+
+17. 
 
