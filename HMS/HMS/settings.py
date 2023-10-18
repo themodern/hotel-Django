@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     #add self defined apps
-    "hotel"
+    "hotel",
+    "hotel.booking_functions",
 ]
 
 MIDDLEWARE = [
